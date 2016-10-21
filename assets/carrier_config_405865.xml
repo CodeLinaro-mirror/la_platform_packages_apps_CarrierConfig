@@ -4,5 +4,14 @@
 <boolean name="carrier_volte_available_bool" value="true" />
 <int name="volte_replacement_rat_int" value="3" />
 <boolean name="hide_ims_apn_bool" value="true" />
+<boolean name="use_operator_signal_strength_threshold_values" value="true" />
+<int-array name="operator_signal_strength_threshold_values" num="6">
+    <item value="-128" />
+    <item value="-120" />
+    <item value="-115" />
+    <item value="-110" />
+    <item value="-105" />
+    <item value="-44" />
+</int-array>
 </carrier_config>
 </carrier_config_list>
