@@ -2,6 +2,7 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
         <int name="recipientLimit" value="10" />
         <int name="maxImageHeight" value="1944" />
         <boolean name="support_pause_ims_video_calls_bool" value="false" />
@@ -10,7 +11,9 @@
         <boolean name="enableSMSDeliveryReports" value="false" />
         <int name="volte_replacement_rat_int" value="3" />
         <boolean name="csp_enabled_bool" value="true" />
-        <boolean name="restart_radio_on_pdp_fail_regular_deactivation_bool" value="true" />
+        <int-array name="radio_restart_failure_causes_int_array" num="1">
+            <item value="36" />  <!-- REGULAR_DEACTIVATION -->
+        </int-array>
         <string-array name="carrier_data_call_retry_config_strings" num="3">
             <!-- New retry pattern: 10s, 3m, 12m, 36m, 36m, 36m, ... (forever)
                  (comparing to the default one used before:
