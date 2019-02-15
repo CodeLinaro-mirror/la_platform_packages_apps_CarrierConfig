@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
     <int name="maxImageHeight" value="1944"/>
     <int name="maxImageWidth" value="2592"/>
     <int name="maxMessageSize" value="512000"/>
@@ -25,5 +26,4 @@
         <item value="214020"/>
         <item value="214021"/>
     </string-array>
-    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
 </carrier_config>
